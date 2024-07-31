@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandeiras dos Estados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .flag {
+            width: 200px; /* Ajuste o tamanho das bandeiras conforme necessário */
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .caption {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img src="Bahia.png" alt="Bandeira da Bahia" class="flag">
+            <div class="caption">Bahia</div>
+        </div>
+        <div>
+            <img src="Pernambuco.png" alt="Bandeira de Alagoas" class="flag">
+            <div class="caption">Alagoas</div>
+        </div>
+        <div>
+            <img src="Paraiba.png" alt="Bandeira do Piauí" class="flag">
+            <div class="caption">Piauí</div>
+        </div>
+        <div>
+            <img src="ceara.png" alt="Bandeira do Ceará" class="flag">
+            <div class="caption">Ceará</div>
+        </div>
+    </div>
+</body>
+</html>
